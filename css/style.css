@@ -6,10 +6,15 @@
 
 header {
   height: 80px;
-  background-color: red;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
 }
 
 .immagine-logo {
@@ -36,4 +41,12 @@ header {
 
 .list-decoration li a:hover {
   color: black;
+}
+
+#bottone {
+  border: 1px solid #EE5A94;
+  border-radius: 25px;
+  padding: 10px 15px;
+  background-color: #EE5A94;
+  color: white;
 }
