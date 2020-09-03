@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+
 header {
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+  padding: 0 30px;
 }
 
 .left-side {
@@ -33,6 +36,7 @@ header {
 
 .list-decoration > li {
   padding: 0 10px;
+  position: relative;
 }
 
 .list-decoration li a {
@@ -49,4 +53,28 @@ header {
   padding: 10px 15px;
   background-color: #EE5A94;
   color: white;
+  box-shadow: 3px 1px 10px #888888;
 }
+
+/* /HEADER */
+
+/* HEADER HOVER */
+
+.menu {
+  /* display: none; */
+  margin-top: 20px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  box-shadow: 3px 1px 10px #888888;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  padding: 5px;
+}
+
+/* /HEADER HOVER */
